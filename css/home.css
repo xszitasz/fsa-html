@@ -1,0 +1,46 @@
+body {
+  font-family: "Helvetica Neue", sans-serif;
+  color: #3498db;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #3498db;
+  color: white;
+  padding: 1rem;
+}
+header nav ul {
+  list-style: none;
+  padding: 0;
+}
+header nav ul li {
+  display: inline;
+  margin-right: 1rem;
+}
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 2rem;
+}
+main h1 {
+  color: #2ecc71;
+}
+main p {
+  line-height: 1.6;
+}
+
+footer {
+  background-color: #3498db;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+/*# sourceMappingURL=home.css.map */

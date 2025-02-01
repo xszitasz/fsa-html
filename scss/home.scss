@@ -1,0 +1,68 @@
+// Variables
+$primary-color: #3498db;
+$secondary-color: #2ecc71;
+$font-stack: 'Helvetica Neue', sans-serif;
+
+// Mixins
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+// Base styles
+body {
+    font-family: $font-stack;
+    color: $primary-color;
+    margin: 0;
+    padding: 0;
+}
+
+// Header styles
+header {
+    background-color: $primary-color;
+    color: white;
+    padding: 1rem;
+
+    nav {
+        ul {
+            list-style: none;
+            padding: 0;
+
+            li {
+                display: inline;
+                margin-right: 1rem;
+
+                a {
+                    color: white;
+                    text-decoration: none;
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// Main content styles
+main {
+    padding: 2rem;
+
+    h1 {
+        color: $secondary-color;
+    }
+
+    p {
+        line-height: 1.6;
+    }
+}
+
+// Footer styles
+footer {
+    background-color: $primary-color;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
